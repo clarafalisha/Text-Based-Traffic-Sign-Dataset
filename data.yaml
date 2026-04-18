@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['rambu_teks']
+
+roboflow:
+  workspace: thesis-wdlci
+  project: rambu-lalu-lintas-teks
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/thesis-wdlci/rambu-lalu-lintas-teks/dataset/1
